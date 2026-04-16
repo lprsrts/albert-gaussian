@@ -1,0 +1,28 @@
+name: albert-gaussian
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - notebook
+  - ipykernel
+
+  # Data
+  - numpy
+  - pandas
+  - scipy
+
+  # Plotting
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Image analysis
+  - pillow
+  - scikit-image
+  - opencv
+
+  - pip
+  - pip:
+      - ipywidgets
