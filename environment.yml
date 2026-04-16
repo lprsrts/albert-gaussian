@@ -23,6 +23,9 @@ dependencies:
   - scikit-image
   - opencv
 
+  - scikit-learn
+  - voila
+
   - pip
   - pip:
       - ipywidgets
